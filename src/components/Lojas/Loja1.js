@@ -10,7 +10,7 @@ import './Loja.css';
 function Loja1() {
   return (
     <div>
-      <h1>Loja 1</h1>
+      <h1>oBoticário</h1>
       <div className="categorias-container">
         <div className="categoria-row">
           <div className="categoria-card">
