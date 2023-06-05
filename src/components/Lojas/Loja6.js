@@ -1,34 +1,26 @@
-import React from "react";
+import React from 'react';
+import Categoria1 from '../Categorias/Categoria1';
+import Categoria2 from '../Categorias/Categoria2';
+import Categoria3 from '../Categorias/Categoria3';
+import Categoria4 from '../Categorias/Categoria4';
+import Categoria5 from '../Categorias/Categoria5';
+import Categoria6 from '../Categorias/Categoria6';
 
 function Loja6() {
-  const produtos = [
-    {
-      id: 1,
-      nome: "Sistema de Energia Solar",
-      imagem: "/img/sistema_energia_solar.jpg",
-    },
-    {
-      id: 2,
-      nome: "Estação de Reciclagem Inteligente",
-      imagem: "/img/estacao_reciclagem_inteligente.jpg",
-    },
-    {
-      id: 3,
-      nome: "Bicicleta Elétrica",
-      imagem: "/img/bicicleta_eletrica.jpg",
-    },
-  ];
-
   return (
     <div>
-      <h2>Loja 6</h2>
-      <div>
-        {produtos.map((produto) => (
-          <div key={produto.id}>
-            <img src={produto.imagem} alt={produto.nome} />
-            <h3>{produto.nome}</h3>
-          </div>
-        ))}
+      <h1>Loja 6</h1>
+      <div className="categorias-container">
+        <div className="categoria-row">
+          <Categoria1 />
+          <Categoria2 />
+          <Categoria3 />
+        </div>
+        <div className="categoria-row">
+          <Categoria4 />
+          <Categoria5 />
+          <Categoria6 />
+        </div>
       </div>
     </div>
   );
