@@ -26,26 +26,66 @@ const Main = () => {
               <Col md="4" className="text-center">
                 {/* 'Link' é usado para navegar entre páginas sem recarregar */}
                 <Link to="/loja1">
-                  {/* 'empty-image-square' é uma classe CSS para criar uma área vazia com proporção 1:1 */}
-                  <div className="empty-image-square"></div>
+                  <img
+                    src="caminho-da-imagem-da-loja-1"
+                    alt="Loja 1"
+                    className="store-image"
+                  />
+                  <h3>Loja 1</h3>
                 </Link>
               </Col>
               {/* 'md="4"' define a largura das colunas para 4/12 (1/3) da largura total no breakpoint 'md' */}
               <Col md="4" className="text-center">
                 {/* 'Link' é usado para navegar entre páginas sem recarregar */}
+                <Link to="/loja2">
+                  <img
+                    src="caminho-da-imagem-da-loja-2"
+                    alt="Loja 2"
+                    className="store-image"
+                  />
+                  <h3>Loja 2</h3>
+                </Link>
+              </Col>
+              <Col md="4" className="text-center">
+                <Link to="/loja3">
+                  <img
+                    src="caminho-da-imagem-da-loja-3"
+                    alt="Loja 3"
+                    className="store-image"
+                  />
+                  <h3>Loja 3</h3>
+                </Link>
+              </Col>
+            </Row>
+            <Row>
+              <Col md="4" className="text-center">
                 <Link to="/loja4">
-                  {/* 'empty-image-square' é uma classe CSS para criar uma área vazia com proporção 1:1 */}
-                  <div className="empty-image-square"></div>
+                  <img
+                    src="caminho-da-imagem-da-loja-4"
+                    alt="Loja 4"
+                    className="store-image"
+                  />
+                  <h3>Loja 4</h3>
                 </Link>
               </Col>
               <Col md="4" className="text-center">
                 <Link to="/loja5">
-                  <div className="empty-image-square"></div>
+                  <img
+                    src="caminho-da-imagem-da-loja-5"
+                    alt="Loja 5"
+                    className="store-image"
+                  />
+                  <h3>Loja 5</h3>
                 </Link>
               </Col>
               <Col md="4" className="text-center">
                 <Link to="/loja6">
-                  <div className="empty-image-square"></div>
+                  <img
+                    src="caminho-da-imagem-da-loja-6"
+                    alt="Loja 6"
+                    className="store-image"
+                  />
+                  <h3>Loja 6</h3>
                 </Link>
               </Col>
             </Row>
